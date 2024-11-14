@@ -1,0 +1,144 @@
+
+
+
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    
+}
+
+.hero__content .section__title {
+    font-size: 3rem;
+    padding-right: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    
+}
+
+.highlights {
+    color: var(--primary-color);
+    
+}
+
+.hero__content p {
+    font-size: 1.1rem;
+    color: var(--heading-color);
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.hero__btns {
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    
+}
+
+.hero__img-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.box__img {
+    position: absolute;
+    top: -12%;
+    left: -13%;
+    z-index: 10;
+}
+
+.box__img img {
+    width: 150%;
+}
+
+.heart__rate{
+    width: 100px;
+    position: absolute;
+    top: 82%;
+    left: -13%;
+    z-index: 10;
+    box-shadow: -3px 3px 8px -1px #d3cef2;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+
+.heart__rate span {
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d3cef2;
+    color: #d7337a;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.heart__rate h5, h6 {
+    font-size: 0.8rem;
+    color: var(--heading-color );
+    font-weight: 700;
+}
+
+.heart__rate h5 {
+    margin-bottom: 2px;
+}
+
+;.heart__rate h6 {
+    margin-top: 10px;
+}
+
+.gym__location{
+    position: absolute;
+    top: -46%;
+    right: -62%;
+    z-index: 10;
+    box-shadow: 3px -3px 8px -1px #d3cef2;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.gym__location span {
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: var(--primary-color);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    border-radius: 50px;
+}
+
+.gym__location h5 {
+    color: var(--heading-color);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.dumble__icon{
+    position: absolute;
+    top: -2%;
+    left: -5%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #d7337a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+
+.dumble__icon img{
+    width: 100%;
+}
